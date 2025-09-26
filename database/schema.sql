@@ -53,4 +53,3 @@ CREATE TRIGGER update_updated_at_trigger
     BEFORE UPDATE ON orders
     FOR EACH ROW
     EXECUTE FUNCTION update_updated_at_columns();
-
